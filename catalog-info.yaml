@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-catalog-test
+  description: A minimal component used to verify GitHub catalog integration.
+  annotations:
+    github.com/project-slug: millad90s/backstage-catalog-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
